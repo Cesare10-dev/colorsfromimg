@@ -12,6 +12,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
 }
 
 .colors {
@@ -19,17 +20,18 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .colors li {
   position: relative;
   list-style: none;
-  width: 16rem;
-  height: 16rem;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
 
   border-radius: 0.5rem;
-  box-shadow: 0 4px 0px rgba(39, 174, 96, 1);
+  box-shadow: 0 3px 0px rgb(5, 242, 104);
 
   transition: all 0.3s ease-in-out;
 }
@@ -40,21 +42,21 @@
 
 .colors li span {
   cursor: pointer;
-  padding: 0.5rem 1rem;
+  padding: 7px;
   width: 100%;
-
   position: absolute;
   bottom: 0;
-  border-top: 2px solid #ffffff2f;
+  border-top: 2px solid whitesmoke;
   border-bottom-right-radius: 0.4rem;
   border-bottom-left-radius: 0.4rem;
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   font-weight: 600;
-  color: #02203c;
+  font-size: 16px;
+  color: whitesmoke;
   background-color: rgba(255, 255, 255, 0.14);
 }
 
